@@ -9,4 +9,5 @@ The main contributions of BAGAN-GP are: using a 'supervised' autoencoder with an
 
 References
 [1]. Deep Convolutional Generative Adversarial Network. https://www.tensorflow.org/tutorials/generative/dcgan
+
 [2]. Huang, G., Jafari, A.H. Enhanced balancing GAN: minority-class image generation. Neural Comput & Applic (2021). https://doi.org/10.1007/s00521-021-06163-8
