@@ -7,6 +7,10 @@ As a term project attempt of Deep Learning course, deep convolutional Generative
 
 The main contributions of BAGAN-GP are: using a 'supervised' autoencoder with an intermediate embedding model to disperse the labeled latent vectors, which helps the autoencoder learn the label information directly. Then, use it to initialize the GAN training, which gives the GAN a common knowlege of all classes, even when the different class images are similar, 2. improve the loss function of BAGAN with gradient penalty and build the corresponding architecture of the generator and the discriminator (BAGAN-GP), which ensures a balanced training for each class [2].
 
+The final GIF images during training:
+
+![training_demo](https://user-images.githubusercontent.com/82203828/182513579-3f225728-1bcd-4120-b1f3-055b99f5c9a2.gif)
+
 References
 
 [1]. Deep Convolutional Generative Adversarial Network. https://www.tensorflow.org/tutorials/generative/dcgan
